@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<meta http-equiv="refresh" content="180">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0a0d13">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,14 +30,14 @@ background:var(--pill);color:var(--muted);border:1px solid var(--line);white-spa
 .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;margin:14px 16px 0;padding:18px;box-shadow:var(--shadow)}
 .lbl{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--faint);text-transform:uppercase}
 .hero .top{display:flex;justify-content:space-between;align-items:baseline}
-.hero .verdict{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:6px 0 2px;color:var(--up)}
+.hero .verdict{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:6px 0 2px;color:var(--down)}
 .hero .verdict .arw{font-size:22px}.hero .score{text-align:right}
-.hero .score .n{font-size:26px;font-weight:800;color:var(--up)}.hero .score .t{font-size:11px;color:var(--faint)}
+.hero .score .n{font-size:26px;font-weight:800;color:var(--down)}.hero .score .t{font-size:11px;color:var(--faint)}
 .gauge{margin-top:16px}.gauge .track{position:relative;height:10px;border-radius:999px;
 background:linear-gradient(90deg,var(--down),#3a4353 50%,var(--up));opacity:.85}
 .gauge .mid{position:absolute;left:50%;top:-4px;width:1px;height:18px;background:var(--faint);opacity:.5}
-.gauge .needle{position:absolute;top:50%;width:16px;height:16px;border-radius:50%;background:var(--up);
-border:3px solid var(--panel);transform:translate(-50%,-50%);box-shadow:0 0 0 1px var(--up)}
+.gauge .needle{position:absolute;top:50%;width:16px;height:16px;border-radius:50%;background:var(--down);
+border:3px solid var(--panel);transform:translate(-50%,-50%);box-shadow:0 0 0 1px var(--down)}
 .gauge .ends{display:flex;justify-content:space-between;margin-top:8px;font-size:11px;color:var(--faint)}
 .sec-h{display:flex;justify-content:space-between;align-items:baseline;margin:24px 18px 2px}
 .sec-h .t{font-size:15px;font-weight:800}.sec-h .n{font-size:12px;color:var(--muted)}
@@ -60,20 +61,20 @@ border:3px solid var(--panel);transform:translate(-50%,-50%);box-shadow:0 0 0 1p
 body{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}</style>
 <div class="wrap">
 <div class="hd"><div class="hd-top"><h1>장전 프록시 브리핑</h1><span class="badge">참고용 · 프록시</span></div>
-<div class="hd-sub">KSTOCK · 데이터 <b class="num">2026-07-30</b> → <b>다음 개장</b> 힌트</div></div>
+<div class="hd-sub">데이터 <b class="num">2026-08-06</b> · 🕐 갱신 <b>08-07 09:00</b> → <b>다음 개장</b> 힌트</div></div>
 <div class="card hero"><div class="top"><div><div class="lbl">개장 갭 편향</div>
-<div class="verdict up"><span class="arw">▲</span> 상방 편향(강)</div></div>
-<div class="score"><div class="n num">6.26</div><div class="t">lean score</div></div></div>
-<div class="gauge"><div class="track"><span class="mid"></span><span class="needle" style="left:84%"></span></div>
+<div class="verdict down"><span class="arw">▼</span> 하방 편향(약)</div></div>
+<div class="score"><div class="n num">-0.62</div><div class="t">lean score</div></div></div>
+<div class="gauge"><div class="track"><span class="mid"></span><span class="needle" style="left:32%"></span></div>
 <div class="ends"><span>하락 갭</span><span>중립</span><span>상승 갭</span></div></div></div>
-<div class="sec-h"><span class="t">지표 실측</span><span class="n">각 소스 2026-07-30</span></div>
-<div class="grid"><div class="tile"><div class="nm">S&amp;P500선물(ES) <span class="tk mono">ES=F</span></div><div class="v num">7,482.75</div><div class="c up num">▲ +1.79%</div></div><div class="tile"><div class="nm">나스닥100선물(NQ) <span class="tk mono">NQ=F</span></div><div class="v num">28,399.00</div><div class="c up num">▲ +3.87%</div></div><div class="tile"><div class="nm">S&amp;P500 <span class="tk mono">US500</span></div><div class="v num">7,437.63</div><div class="c up num">▲ +1.66%</div></div><div class="tile"><div class="nm">나스닥 <span class="tk mono">IXIC</span></div><div class="v num">25,122.18</div><div class="c up num">▲ +2.78%</div></div><div class="tile"><div class="nm">다우 <span class="tk mono">DJI</span></div><div class="v num">52,208.06</div><div class="c up num">▲ +1.19%</div></div><div class="tile hl"><div class="nm">필라델피아반도체 <span class="tk mono">^SOX</span></div><div class="v num">11,302.99</div><div class="c up num">▲ +8.19%</div></div><div class="tile"><div class="nm">VIX <span class="tk mono">^VIX</span></div><div class="v num">17.09</div><div class="c calm num">▼ -17.28% · 정상</div></div><div class="tile"><div class="nm">KOSPI(참고) <span class="tk mono">KS11</span></div><div class="v num">5,593.56</div><div class="c down num">▼ -1.23%</div></div><div class="tile"><div class="nm">KOSPI200(참고) <span class="tk mono">KS200</span></div><div class="v num">872.49</div><div class="c down num">▼ -1.66%</div></div></div>
+<div class="sec-h"><span class="t">지표 실측</span><span class="n">각 소스 2026-08-06</span></div>
+<div class="grid"><div class="tile"><div class="nm">S&amp;P500선물(ES) <span class="tk mono">ES=F</span></div><div class="v num">7,740.75</div><div class="c down num">▼ -0.11%</div></div><div class="tile"><div class="nm">나스닥100선물(NQ) <span class="tk mono">NQ=F</span></div><div class="v num">29,597.00</div><div class="c down num">▼ -0.06%</div></div><div class="tile"><div class="nm">S&amp;P500 <span class="tk mono">US500</span></div><div class="v num">7,709.96</div><div class="c down num">▼ -0.18%</div></div><div class="tile"><div class="nm">나스닥 <span class="tk mono">IXIC</span></div><div class="v num">26,348.35</div><div class="c down num">▼ -0.06%</div></div><div class="tile"><div class="nm">다우 <span class="tk mono">DJI</span></div><div class="v num">53,885.10</div><div class="c down num">▼ -0.85%</div></div><div class="tile hl"><div class="nm">필라델피아반도체 <span class="tk mono">^SOX</span></div><div class="v num">12,048.69</div><div class="c up num">▲ +0.33%</div></div><div class="tile"><div class="nm">VIX <span class="tk mono">^VIX</span></div><div class="v num">15.15</div><div class="c calm num">▼ -4.17% · 정상</div></div><div class="tile"><div class="nm">KOSPI(참고) <span class="tk mono">KS11</span></div><div class="v num">6,296.38</div><div class="c down num">▼ -4.58%</div></div><div class="tile"><div class="nm">KOSPI200(참고) <span class="tk mono">KS200</span></div><div class="v num">982.92</div><div class="c down num">▼ -5.36%</div></div></div>
 <div class="sec-h"><span class="t">프록시 힌트</span></div>
-<div class="card"><div class="hint"><span class="dot" style="background:var(--up)"></span><div class="tx"><b>미국 금요일 강세, 한국 미반영</b><span class="s">미국현물 합성 +4.18% — KR은 금요일 US장 前 마감이라 월요일 개장에 처음 반영</span></div></div><div class="hint"><span class="dot" style="background:var(--up)"></span><div class="tx"><b>개장을 끌어올리는 핵심 동인</b><span class="s">필라델피아반도체 +8.19% → 대형주 개장 상방 압력</span></div></div><div class="hint"><span class="dot" style="background:var(--calm)"></span><div class="tx"><b>공포 급감 · 위험선호 회복</b><span class="s">VIX 17.1 (-17.28%) · 밤사이 선물 +2.96%로 추가 악화 없음</span></div></div></div>
+<div class="card"><div class="hint"><span class="dot" style="background:var(--up)"></span><div class="tx"><b>미국 금요일 강세, 한국 미반영</b><span class="s">미국현물 합성 -0.06% — KR은 금요일 US장 前 마감이라 월요일 개장에 처음 반영</span></div></div><div class="hint"><span class="dot" style="background:var(--up)"></span><div class="tx"><b>개장을 끌어올리는 핵심 동인</b><span class="s">필라델피아반도체 +0.33% → 대형주 개장 상방 압력</span></div></div><div class="hint"><span class="dot" style="background:var(--calm)"></span><div class="tx"><b>공포 급감 · 위험선호 회복</b><span class="s">VIX 15.1 (-4.17%) · 밤사이 선물 -0.08%로 추가 악화 없음</span></div></div></div>
 <div class="card warn"><div class="wh">⚠ 실행 전 반드시</div><ul>
 <li><b>방향 힌트일 뿐</b> — 종일 예측 아님. 갭 상승 후 장중 되돌림 빈번</li>
 <li><b>front-run 금지</b> — 이 프록시로 미리 매수 금지</li>
 <li>실진입은 <b>08:25 국내 실측 레짐 확인 후</b>에만</li></ul></div>
 <div class="foot">※ 선물 = 금요일 이후 최신 방향(보합 = 추가악화 없음, 반등 아님). 야간선물은 ES/NQ 대체.
-<span class="note">⚑ 이 환경 KOSPI는 <b>시뮬레이션 값</b>(실제의 약 2배). <b>방향</b>은 참고 가능하나 <b>절대 크기</b>는 시뮬 척도. — 사실 통지(S3)</span></div>
+<span class="note">⚑ 이 환경 KOSPI는 <b>시뮬레이션 값</b>(실제의 약 2배). <b>방향</b>은 참고 가능하나 <b>절대 크기</b>는 시뮬 척도. — 사실 통지(S3)</span><span class="note">🔄 3분마다 자동 새로고침 · 열어두면 최신 반영</span></div>
 </div>
