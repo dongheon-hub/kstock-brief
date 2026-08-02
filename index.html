@@ -1,3 +1,11 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0d13">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="장전브리핑">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
 <title>KSTOCK 장전 프록시 브리핑</title>
 <style>
 :root{--bg:#0a0d13;--panel:#141a24;--panel-2:#0f141d;--line:#232b38;--ink:#eef1f7;
@@ -48,7 +56,8 @@ border:3px solid var(--panel);transform:translate(-50%,-50%);box-shadow:0 0 0 1p
 .warn li::before{content:"→";position:absolute;left:0;color:var(--faint)}.warn li b{color:var(--ink)}
 .foot{margin:18px 20px 0;font-size:11px;color:var(--faint);line-height:1.6}
 .foot .note{display:block;margin-top:8px;padding:10px 12px;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;color:var(--muted)}
-</style>
+
+body{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}</style>
 <div class="wrap">
 <div class="hd"><div class="hd-top"><h1>장전 프록시 브리핑</h1><span class="badge">참고용 · 프록시</span></div>
 <div class="hd-sub">KSTOCK · 데이터 <b class="num">2026-07-30</b> → <b>다음 개장</b> 힌트</div></div>
